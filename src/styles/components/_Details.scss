@@ -1,0 +1,175 @@
+@use '../baseStyles/colors' as *;
+@use '../baseStyles/fonts' as *;
+@use '../mixins/flex-center' as *;
+
+$ratings-line-height: 1.75rem;
+$content-padding: 20px;
+
+.movie-cont {
+	// --background-image: none;
+	@include flex-center;
+	width: 100%;
+	overflow: hidden;
+	p {
+		line-height: 1.5rem;
+	}
+
+	position: relative;
+	background-color: rgba(map-get($colors, 'bg-black'), 0.75);
+
+	.movie-img-cont {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		flex-shrink: 0;
+		a img {
+			display: block;
+			height: auto;
+			width: 100%;
+		}
+
+		.background-blur-image {
+			margin-inline: auto;
+			position: absolute;
+			right: 0;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			transform: scale(2);
+			filter: blur(50px);
+			z-index: -1;
+		}
+
+		.rating-cont {
+			display: flex;
+			align-items: center;
+			padding: 15px 10px;
+			.rating-caption {
+				font-family: map-get($fonts, 'Light');
+				font-size: 1.1rem;
+				font-weight: 300;
+				line-height: $ratings-line-height;
+				color: map-get($colors, 'text-gray');
+			}
+			.rating-score {
+				margin-left: 30px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				svg {
+					height: $ratings-line-height;
+					width: auto;
+					fill: map-get($colors, 'star-yellow');
+				}
+				b,
+				span {
+					line-height: $ratings-line-height;
+				}
+				b {
+					font-size: 1.25em;
+					margin-left: 5px;
+				}
+			}
+		}
+	}
+	.movie-content {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		padding-inline: $content-padding;
+		padding-bottom: 100px;
+
+		h1 {
+			font-size: 2em;
+		}
+		.movie-date {
+			font-size: 0.95em;
+			margin-block: 0.25em;
+			color: map-get($colors, 'text-gray');
+		}
+		.movie-description {
+			padding-block: 15px;
+		}
+		.genres-title {
+			font-family: map-get($fonts, 'Light');
+			font-size: 1.2rem;
+			font-weight: 300;
+			line-height: $ratings-line-height;
+			color: map-get($colors, 'text-gray');
+		}
+		.genres {
+			padding-block: 15px;
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			gap: 20px;
+
+			li {
+				padding: 0.5em 0.75em;
+				font-size: 0.9em;
+				border: 2px solid map-get($colors, 'text-gray');
+				border-radius: 30px;
+
+				&:hover {
+					border-color: map-get($colors, 'text-white');
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 600px) {
+	$content-padding: 10vw;
+	.movie-cont {
+		.movie-img-cont {
+			padding-inline: $content-padding;
+			.ratings-cont {
+				padding: 15px 10px 15px 0;
+			}
+		}
+		.movie-content {
+			padding-inline: $content-padding;
+		}
+	}
+}
+
+@media screen and (min-width: 800px) {
+	$content-padding: 20vw;
+	.movie-cont {
+		.movie-img-cont,
+		.movie-content {
+			padding-inline: $content-padding;
+		}
+	}
+}
+@media screen and (max-width: 1200px) {
+	.movie-cont {
+		flex-direction: column;
+
+		// .movie-img-cont {
+		// 	a {
+		// 		width: auto;
+		// 		height: auto;
+		// 	}
+		// }
+	}
+}
+@media screen and (min-width: 1200px) {
+	.movie-cont {
+		height: 100vh;
+		padding: 0 100px;
+		gap: 50px;
+		.movie-img-cont,
+		.movie-content {
+			padding-inline: 0;
+		}
+		.movie-img-cont {
+			width: 400px;
+		}
+		.movie-content {
+			min-height: 650.3px;
+			max-width: 800px;
+		}
+	}
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 26.458333 26.458334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#e6e6e6"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     showborder="false"
+     units="px"
+     inkscape:zoom="5.5730837"
+     inkscape:cx="60.917801"
+     inkscape:cy="60.558933"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect3027"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,6,0,1 @ F,0,0,1,0,6,0,1 @ F,0,0,1,0,6,0,1 @ F,0,0,1,0,6,0,1 @ F,0,0,1,0,6,0,1 @ F,0,0,1,0,6,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="6"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Invert"
+       id="filter45388"
+       x="-0.012110493"
+       y="-0.011891506"
+       width="1.0242209"
+       height="1.023783">
+      <feColorMatrix
+         type="hueRotate"
+         values="180"
+         result="color1"
+         id="feColorMatrix45384" />
+      <feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 2 0 "
+         result="color2"
+         id="feColorMatrix45386" />
+      <feGaussianBlur
+         stdDeviation="0.73236112"
+         id="feGaussianBlur45408" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(319.47839,56.443836)">
+    <g
+       id="g15171"
+       transform="translate(-34.073152)">
+      <path
+         id="rect2516"
+         style="fill:#722af7;fill-rule:evenodd;stroke-width:6.12216;paint-order:markers fill stroke"
+         d="m -281.25228,-52.703239 h 18.15241 c 2.30074,0 4.15296,1.85222 4.15296,4.15296 v 10.671219 c 0,2.30074 -1.85222,4.152961 -4.15296,4.152961 h -18.15241 c -2.30074,0 -4.15296,-1.852221 -4.15296,-4.152961 v -10.671219 c 0,-2.30074 1.85222,-4.15296 4.15296,-4.15296 z" />
+      <path
+         id="path2642"
+         inkscape:transform-center-x="-1.3530371"
+         d="m -267.8473,-42.674704 -2.18861,1.263595 -4.05911,2.343525 a 0.62349765,0.62349765 0 0 1 -0.93524,-0.539965 v -2.52719 -4.68705 a 0.62349765,0.62349765 0 0 1 0.93524,-0.539964 l 2.18862,1.263595 4.0591,2.343524 a 0.62349765,0.62349765 0 0 1 0,1.07993 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:5.39965;paint-order:markers fill stroke" />
+    </g>
+  </g>
+</svg>

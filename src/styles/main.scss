@@ -1,0 +1,40 @@
+@use './baseStyles';
+@use './components';
+
+:root {
+	font-family: 'Roboto', sans-serif;
+	// font-size: 18px;
+
+	color-scheme: light dark;
+
+	// color: rgba(255, 255, 255, 0.87);
+	// background-color: #242424;
+	background-color: #121212;
+	// background-color: #fff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+a,
+a:visited {
+	color: inherit;
+}
+
+// @media (prefers-color-scheme: light) {
+// 	:root {
+// 		color: #213547;
+// 		background-color: #ffffff;
+// 	}
+// 	a:hover {
+// 		color: #747bff;
+// 	}
+// 	button {
+// 		background-color: #f9f9f9;
+// 	}
+// }
