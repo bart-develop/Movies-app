@@ -8,3 +8,7 @@
 - React Helmet,
 - TypeScript,
 - Sass (scss).
+
+## API used
+
+https://rapidapi.com/apidojo/api/imdb8/
