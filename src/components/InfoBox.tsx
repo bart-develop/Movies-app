@@ -1,6 +1,6 @@
-import { FetchOutput } from '../types/Types';
+import { FetchedMovies } from '../types/Types';
 
-const InfoBox = ({ fetchedData, isLoading, error }: FetchOutput) => {
+const InfoBox = ({ fetchedData, isLoading, error }: FetchedMovies) => {
 	return (
 		<div className="information-cont">
 			{isLoading && <h1>Loading data...</h1>}
